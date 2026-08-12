@@ -1019,7 +1019,7 @@ export default function App() {
                       type="text"
                       id="fullName"
                       required
-                      placeholder="e.g., John Doe"
+                      placeholder="e.g., Raj Patel"
                       className="bg-white/5 border border-white/10 focus:border-amber-400 focus:bg-white/10 text-white rounded-xl px-4 py-3.5 text-xs focus:outline-none transition-all placeholder:text-slate-500 shadow-sm"
                       value={formValues.fullName}
                       onChange={(e) => setFormValues({ ...formValues, fullName: e.target.value })}
